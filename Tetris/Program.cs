@@ -16,10 +16,18 @@ namespace Tetris
             p1.c = '+';
             p1.Draw();
 
-            Point p2 = new Point();
-            p2.x = 3;
-            p2.y = 3;
-            p2.c = '+';
+            //point p2 = new point();
+            //p2.x = 3;
+            //p2.y = 3;
+            //p2.c = '+';
+            //p2.draw();
+            Point p2 = new Point()
+            {
+                x = 4,
+                y = 5,
+                c = '+'
+            };
+
             p2.Draw();
 
 
